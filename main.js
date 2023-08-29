@@ -18,10 +18,8 @@ function adicionaLinha() {
     } else {
         listaTarefas.push(inputTarefa.value)
     
-        let linha = '<li>'
-        linha += `<li>${inputTarefa.value}</li>`
-        linha += `</li>`
-    
+        let linha = `<li>${inputTarefa.value}</li>`
+
         linhas += linha
     }
 
